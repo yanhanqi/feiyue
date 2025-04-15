@@ -1,0 +1,85 @@
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url('iconfont.ttf?t=1744708599260') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e6af";
+}
+
+.icon-home:before {
+  content: "\e6b8";
+}
+
+.icon-gouwu:before {
+  content: "\e7b1";
+}
+
+.icon-dizhi:before {
+  content: "\e652";
+}
+
+.icon-cubelifangti:before {
+  content: "\e6fc";
+}
+
+.icon-account:before {
+  content: "\e6a3";
+}
+
+.icon-facebook:before {
+  content: "\e725";
+}
+
+.icon-xihuan:before {
+  content: "\e86f";
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-sousuo:before {
+  content: "\e61f";
+}
+
+.icon-liebiao_o:before {
+  content: "\eb7c";
+}
+
+.icon-dacha:before {
+  content: "\e711";
+}
+
+.icon-Chat:before {
+  content: "\e60b";
+}
+
+.icon-dianhua:before {
+  content: "\e60e";
+}
+
+.icon-jiantou:before {
+  content: "\e631";
+}
+
+.icon-youxaing:before {
+  content: "\e676";
+}
+
+.icon-huishou:before {
+  content: "\e60c";
+}
+
+.icon-tuite:before {
+  content: "\e527";
+}
+

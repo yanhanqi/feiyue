@@ -1,0 +1,48 @@
+.collections {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+}
+.collections a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+.collections p {
+  color: #545454;
+}
+.collections a:hover {
+  color: #ff6f61 !important;
+}
+
+.collections .introduce span {
+  font-weight: 600;
+  font-size: 36px;
+}
+.collections .introduce button {
+  font-weight: 600;
+  font-size: 14px;
+  margin: 0;
+  border: 1px solid black;
+  background-color: white;
+  outline: none;
+  border-radius: 99px;
+  padding: 13px 32px;
+  box-sizing: border-box;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s linear;
+}
+.collections .introduce button:hover {
+  background-color: black;
+  color: white;
+}
+.collections .introduce a {
+  color: #ff6f61;
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("Poppins-Regular.ttf");
+}

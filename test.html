@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bootstrap卡片组走马灯</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .multi-card-carousel .carousel-inner {
+        padding: 1rem;
+      }
+
+      .multi-card-carousel .carousel-item {
+        transition: transform 0.8s ease-in-out;
+      }
+
+      .multi-card-carousel .card {
+        
+        border: none;
+      }
+      .multi-card-carousel .card .card-img-top {
+        object-fit: cover;
+        height: 360px;
+        border-radius: 16px;
+        transition: all 0.5s ease;
+      }
+      .multi-card-carousel .card .card-img-top:hover {
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+        cursor: pointer;
+      }
+      .multi-card-carousel .card .card-body {
+        font-weight: 600;
+      }
+      .carousel-control-prev,
+      .carousel-control-next {
+        width: 44px;
+        height: 44px;
+        border: 1px solid #ebebeb;
+        border-radius: 50%;
+        background-color: black;
+        color: white;
+        transition: all 0.2s linear;
+        top: 35%;
+      }
+      .carousel-control-prev:hover {
+        background-color: black;
+        color: white;
+      }
+      .carousel-control-next:hover {
+        background-color: black;
+        color: white;
+      }
+
+      @media (max-width: 768px) {
+   
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container py-5">
+      <h2 class="text-center mb-4">产品推荐</h2>
+
+      <!-- 走马灯容器 -->
+      <div
+        id="multiCardCarousel"
+        class="carousel slide multi-card-carousel"
+        data-bs-ride="carousel"
+      >
+        <!-- 走马灯内容 -->
+        <div class="carousel-inner">
+          <!-- 第一组卡片 -->
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- 第二组卡片 -->
+          <div class="carousel-item">
+            <div class="row">
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+              <div class="card col-3">
+                <img
+                  src="https://vineta-html.vercel.app/images/products/fashion/product-5.jpg"
+                  class="card-img-top"
+                  alt=""
+                />
+                <div class="card-body">
+                  <p class="card-text">Puff Sleeve Shirred Blouse</p>
+                  <p class="card-price">$80.00</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 控制按钮 -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#multiCardCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#multiCardCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

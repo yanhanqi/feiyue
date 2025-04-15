@@ -1,0 +1,217 @@
+.header {
+  font-family: Poppins, sans-serif;
+}
+.header a {
+  text-decoration: none !important;
+  color: black;
+}
+.header p {
+  color: #545454;
+  font-size: 14px;
+}
+.header .iconfont {
+  font-size: 24px;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+}
+.header .iconfont:hover {
+  color: #ff6f61;
+}
+
+.header .wrapper-header {
+  height: 87px;
+  align-items: center;
+  font-size: 14px;
+}
+.header .wrapper-header .item {
+  font-weight: 700;
+  transition: all 0.2s ease-in-out;
+  text-align: center;
+}
+.header .wrapper-header .item:hover {
+  color: #ff6f61;
+}
+.header .wrapper-header .icons {
+  gap: 5px;
+  text-align: center;
+}
+
+.header .header-right .icons {
+  gap: 10px;
+  flex-shrink: 1;
+}
+
+
+.header .side-menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 280px;
+  z-index: 1040;
+  background: #f8f9fa;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  transform: translateX(-100%);
+  transition: all 0.3s linear;
+  padding: 20px;
+}
+
+.header .side-menu.show {
+  transform: translateX(0);
+}
+.header .menu-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1039;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+}
+.header .menu-backdrop.show {
+  opacity: 1;
+  visibility: visible;
+}
+.header .side-menu .item {
+  height: 45px;
+  width: 100%;
+  font-weight: 300;
+  border-bottom: 1px solid #ebebeb;
+  transition: all 0.2s ease-in-out;
+}
+.header .side-menu .item:hover {
+  color: #ff6f61;
+}
+
+.header .top-menu {
+  gap: 20px;
+  box-sizing: border-box;
+  padding: 10px 20px 15px;
+  box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.1);
+}
+.header .top-menu form {
+  flex-grow: 1;
+}
+.header .search-input {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  outline: none;
+  border: none;
+  background: transparent;
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  font-size: 16px;
+}
+.header .search-container {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 99px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 60px;
+}
+.header .search-container:hover {
+  border: 1px solid black;
+}
+.header .search-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url("iconfont.ttf?t=1744708599260") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e6af";
+}
+
+.icon-home:before {
+  content: "\e6b8";
+}
+
+.icon-gouwu:before {
+  content: "\e7b1";
+}
+
+.icon-dizhi:before {
+  content: "\e652";
+}
+
+.icon-cubelifangti:before {
+  content: "\e6fc";
+}
+
+.icon-account:before {
+  content: "\e6a3";
+}
+
+.icon-facebook:before {
+  content: "\e725";
+}
+
+.icon-xihuan:before {
+  content: "\e86f";
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-sousuo:before {
+  content: "\e61f";
+}
+
+.icon-liebiao_o:before {
+  content: "\eb7c";
+}
+
+.icon-dacha:before {
+  content: "\e711";
+}
+
+.icon-Chat:before {
+  content: "\e60b";
+}
+
+.icon-dianhua:before {
+  content: "\e60e";
+}
+
+.icon-jiantou:before {
+  content: "\e631";
+}
+
+.icon-youxaing:before {
+  content: "\e676";
+}
+
+.icon-huishou:before {
+  content: "\e60c";
+}
+
+.icon-tuite:before {
+  content: "\e527";
+}

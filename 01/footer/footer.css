@@ -1,0 +1,198 @@
+.footer {
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+}
+.footer a {
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  color: black;
+}
+.footer p {
+  color: #545454;
+}
+.footer a:hover {
+  color: #ff6f61 !important;
+}
+
+.footer .item {
+  padding: 32px 0;
+  box-sizing: border-box;
+  border-top: 1px solid #ebebeb;
+  white-space: normal;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.footer .introduce .iconfont {
+  font-size: 30px;
+  color: #545454;
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.footer .logo .iconfont {
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  width: 52px;
+  height: 52px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-left: 10px;
+  font-size: 22px;
+  text-align: center;
+  line-height: 52px;
+}
+.footer .logo .iconfont:hover {
+  cursor: pointer;
+}
+.footer .body h5 {
+  margin-bottom: 24px;
+}
+.footer .body .iconfont:not(.search-button .iconfont) {
+  border-radius: 50%;
+  border: 1px solid #ebebeb;
+  width: 32px;
+  height: 32px;
+  margin: 10px 10px 10px 0;
+  flex-grow: 0;
+  flex-shrink: 0;
+  text-align: center;
+  line-height: 32px;
+  font-size: 14px;
+}
+
+.footer .body .search-input {
+  outline: none;
+  border: none;
+  background: transparent;
+  padding: 10px 40px 10px 15px;
+  width: 100%;
+}
+.footer .body .search-container {
+  position: relative;
+  border: 1px solid #ddd;
+  border-radius: 99px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  height: 50px;
+}
+.footer .body .search-container:hover {
+  border: 1px solid black;
+}
+.footer .body .search-button {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.footer .body .about a {
+  margin-bottom: 10px;
+  color: #545454;
+}
+
+.footer .tab {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  position: sticky;
+  bottom: 0;
+  left: 0;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 2px 0;
+}
+.footer .tab .iconfont {
+  font-size: 22px;
+}
+
+@font-face {
+  font-family: "iconfont"; /* Project id  */
+  src: url("iconfont.ttf?t=1744708599260") format("truetype");
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cart:before {
+  content: "\e6af";
+}
+
+.icon-home:before {
+  content: "\e6b8";
+}
+
+.icon-gouwu:before {
+  content: "\e7b1";
+}
+
+.icon-dizhi:before {
+  content: "\e652";
+}
+
+.icon-cubelifangti:before {
+  content: "\e6fc";
+}
+
+.icon-account:before {
+  content: "\e6a3";
+}
+
+.icon-facebook:before {
+  content: "\e725";
+}
+
+.icon-xihuan:before {
+  content: "\e86f";
+}
+
+.icon-instagram:before {
+  content: "\e87f";
+}
+
+.icon-sousuo:before {
+  content: "\e61f";
+}
+
+.icon-liebiao_o:before {
+  content: "\eb7c";
+}
+
+.icon-dacha:before {
+  content: "\e711";
+}
+
+.icon-Chat:before {
+  content: "\e60b";
+}
+
+.icon-dianhua:before {
+  content: "\e60e";
+}
+
+.icon-jiantou:before {
+  content: "\e631";
+}
+
+.icon-youxaing:before {
+  content: "\e676";
+}
+
+.icon-huishou:before {
+  content: "\e60c";
+}
+
+.icon-tuite:before {
+  content: "\e527";
+}
