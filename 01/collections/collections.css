@@ -14,7 +14,10 @@
   color: #ff6f61 !important;
 }
 
-.collections .introduce span {
+.collections .introduce {
+  margin-bottom: 60px;
+}
+.collections .introduce .introduce-title {
   font-weight: 600;
   font-size: 36px;
 }
@@ -42,7 +45,63 @@
   text-decoration: underline;
 }
 
+.collections .body .custom-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  padding-bottom: 40px;
+}
+.collections .body img:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+.collections .body img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 16px;
+  transition: all 0.3s ease;
+}
+.collections .body .card-bottom {
+  padding: 18px 10px;
+  font-weight: 600;
+}
+.collections .body .card-title {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
 @font-face {
   font-family: Poppins;
   src: url("Poppins-Regular.ttf");
+}
+
+@media screen and (max-width: 1200px) {
+  .collections .body .custom-card {
+    padding-bottom: 24px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .collections .introduce button {
+    padding: 10px 24px;
+  } 
+  .collections .body .custom-card {
+    padding-bottom: 12px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .collections {
+    font-size: 14px;
+  }
+  .collections .introduce .introduce-title {
+    font-size: 24px;
+  }
+  .collections .introduce button {
+    padding: 8px 20px;
+  }
+
+  .collections .body .card-bottom {
+    padding: 15px 10px;
+  }
 }
